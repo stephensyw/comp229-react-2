@@ -5,6 +5,13 @@
 	padding: 0;
 }
 
+.sub-root {
+	width: 1000px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .navbar {
 	display: flex;
 	align-items: center;
