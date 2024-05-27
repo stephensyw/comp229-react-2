@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../assets/logo.png'; 
 import { Nav, NavLink, NavMenu } from "./NavbarElements.js";
  
 const Navbar = () => {
@@ -6,17 +7,20 @@ const Navbar = () => {
         <>
             <Nav>
                 <NavMenu>
+                    <div className="navbar-logo">
+                        <img src={logo} alt="Custom Logo" height="50px" width="50px"/>
+                    </div>
                     <NavLink to="/about" activeStyle>
-                        About
+                        About Me
                     </NavLink>
                     <NavLink to="/contact" activeStyle>
                         Contact Us
                     </NavLink>
-                    <NavLink to="/blogs" activeStyle>
-                        Blogs
+                    <NavLink to="/projects" activeStyle>
+                        Projects
                     </NavLink>
-                    <NavLink to="/sign-up" activeStyle>
-                        Sign Up
+                    <NavLink to="/services" activeStyle>
+                        Services
                     </NavLink>
                 </NavMenu>
             </Nav>

@@ -9,10 +9,10 @@ import {
     Route,
 } from "react-router-dom";
 import Home from "./pages";
-import About from "./pages/about";
-import Blogs from "./pages/blogs";
-import SignUp from "./pages/signup";
-import Contact from "./pages/contact";
+import About from "./pages/about-me";
+import Projects from "./pages/projects";
+import Services from "./pages/services";
+import Contact from "./pages/contact-me";
 
 
 function App() {
@@ -26,10 +26,10 @@ function App() {
                   path="/contact"
                   element={<Contact />}
               />
-              <Route path="/blogs" element={<Blogs />} />
+              <Route path="/services" element={<Services />} />
               <Route
-                  path="/sign-up"
-                  element={<SignUp />}
+                  path="/projects"
+                  element={<Projects />}
               />
           </Routes>
   </Router>
