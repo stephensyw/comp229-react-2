@@ -22,7 +22,7 @@ const Navbar = () => {
                         Services
                     </NavLink>
                     <NavLink to="/contact" activeStyle>
-                        Contact Us
+                        Contact Me
                     </NavLink>
                 </NavMenu>
             </Nav>

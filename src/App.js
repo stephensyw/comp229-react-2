@@ -9,7 +9,7 @@ import {
     Route,
 } from "react-router-dom";
 import Home from "./pages";
-import About from "./pages/about-me";
+//import About from "./pages/about-me";
 import Projects from "./pages/projects";
 import Services from "./pages/services";
 import Contact from "./pages/contact-me";
@@ -21,7 +21,7 @@ function App() {
         <Navbar />
           <Routes>
               <Route exact path="/" element={<Home />} />
-              <Route path="/about" element={<About />} />
+              <Route path="/about" element={<Home />} />
               <Route
                   path="/contact"
                   element={<Contact />}
