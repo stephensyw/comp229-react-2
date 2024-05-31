@@ -13,6 +13,7 @@ import Home from "./pages";
 import Projects from "./pages/projects";
 import Services from "./pages/services";
 import Contact from "./pages/contact-me";
+import ThankYouPage from "./pages/thank-you";
 
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
               <Route
                   path="/projects"
                   element={<Projects />}
+              />
+              <Route
+                  path="/thank-you"
+                  element={<ThankYouPage />}
               />
           </Routes>
   </Router>

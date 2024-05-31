@@ -1,4 +1,9 @@
-// Filename - pages/projects.js
+/*
+ * File name: projects.js
+ * Student’s Name: Shek Yu Wong
+ * StudentID: 301335153
+ * Date: May 30, 2024
+ */
  
 import React from "react";
  

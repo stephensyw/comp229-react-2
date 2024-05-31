@@ -1,3 +1,10 @@
+/*
+ * File name: index.js
+ * Student’s Name: Shek Yu Wong
+ * StudentID: 301335153
+ * Date: May 30, 2024
+ */
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';

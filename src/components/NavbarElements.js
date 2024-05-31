@@ -1,3 +1,10 @@
+/*
+ * File name: components/NavbarElement.js
+ * Student’s Name: Shek Yu Wong
+ * StudentID: 301335153
+ * Date: May 30, 2024
+ */
+
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";

@@ -1,3 +1,10 @@
+/*
+ * File name: components/Navbar.js
+ * Student’s Name: Shek Yu Wong
+ * StudentID: 301335153
+ * Date: May 30, 2024
+ */
+
 import React from "react";
 import logo from '../assets/logo.png'; 
 import { Nav, NavLink, NavMenu } from "./NavbarElements.js";

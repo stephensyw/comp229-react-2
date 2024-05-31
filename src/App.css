@@ -1,4 +1,9 @@
-/*Filename - App.css*/
+/*
+ * File name: App.css
+ * Student’s Name: Shek Yu Wong
+ * StudentID: 301335153
+ * Date: May 30, 2024
+ */
 
 * {
 	margin: 0;
@@ -171,6 +176,10 @@ header {
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+	text-align: center;
 }
 
 .profile-image {
@@ -188,6 +197,7 @@ header {
 }
 
 .profile-info {
+	#width: 800px;
 	flex: 1;
 }
 
@@ -198,6 +208,12 @@ header {
 .profile-info p {
 	line-height: 1.5;
 }
+
+.profile-content{
+	width: 600px;
+	text-align: justify;
+}
+
 .social-links {
 	margin-top: 20px;
 }
@@ -213,17 +229,52 @@ header {
 	color: #666;
 }
 
-.container {
-	max-width: 500px;
+.contact-container {
+	width: 800px;
 	margin: 0 auto;
 	padding: 40px;
 	background-color: #fff;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	#flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.contact-title{
+	width: 100%;
+	text-align: center;
+}
+
+.contact-point, .contact-message{
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contact-point ul{
+	padding-left: 15px;
+}
+
+.contact-point ul li{
+	padding: 5px;
+	padding-left: 30px;
+	text-align: left;
+}
+
+.contact-icon{
+	height: 15px;
+}
+
+.contact-table-width{
+	width: 36px;
+	padding: 3px;
 }
 
 h1 {
 	text-align: center;
-	margin-bottom: 30px;
+	#margin-bottom: 30px;
 }
 
 form {
@@ -460,3 +511,41 @@ p {
 	align-items: center;
 	margin: 10px;
 }
+
+.thank-you-page {
+	display: flex;
+	flex-direction: column;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+	padding: 40px;
+  }
+  
+  .thank-you-page h1 {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #333;
+  }
+  
+  .thank-you-page p {
+	font-size: 1.2rem;
+	color: #555;
+  }
+  
+  .thank-you-page textarea {
+	width: 100%;
+	height: 150px;
+	font-size: 1.2rem;
+	padding: 1rem;
+	border: 1px solid #ccc;
+	border-radius: 0.5rem;
+	resize: none;
+	background-color: #fff;
+	color: #555;
+	margin-bottom: 2rem;
+  }
+  
+  .thank-you-page a:hover {
+	background-color: #0056b3;
+  }
