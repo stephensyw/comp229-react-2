@@ -4,23 +4,36 @@
  * StudentID: 301335153
  * Date: May 30, 2024
  */
- 
+
+
+// Import necessary resources
 import React from "react";
 import { useNavigate } from 'react-router-dom';
 
+// Define the Contact page component
 const Contact = () => {
+
+    // Get the navigate function from the useNavigate hook
     const navigate = useNavigate();
+
+    // Function to handle the form submission and store user data in local storage
     const showSuccessMessage = () => {
+        // Store user name, email, and message in local storage
         localStorage.setItem('name', document.getElementById('name').value);
         localStorage.setItem('email', document.getElementById('email').value);
         localStorage.setItem('message', document.getElementById('message').value);
         navigate('/thank-you');
     }
 
+    // Render the Contact page component
     return (
         <div>
+
+             {/* Container for all div */}
             <div class="contact-container">
                 <div class="contact-title"><h2>Contact Me</h2></div>
+
+                {/* Division for displaying my contact point */}
                 <div class="contact-point">
                     <h2>How I can help you?</h2>
                         <ul>
@@ -43,6 +56,9 @@ const Contact = () => {
                         </tr>
                     </table>
                 </div>
+
+
+                {/* Division for users to leave their messages */}
                 <div class="contact-message">
                     <h2>Make an inquiry</h2>
                     <form id="contact-form" onSubmit={showSuccessMessage}>
@@ -62,15 +78,12 @@ const Contact = () => {
                     </div>
                         <button type="submit">Send Message</button>
                     </form>
-                    {showSuccessMessage && (
-                        <div className="success-message">
-                            <h2>Thank you for your message!</h2>
-                        </div>
-                    )}
                 </div>
+
             </div>
         </div>
     );
 };
- 
+
+// Export the Contact page component
 export default Contact;

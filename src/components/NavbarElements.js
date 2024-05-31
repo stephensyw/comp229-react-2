@@ -5,10 +5,14 @@
  * Date: May 30, 2024
  */
 
+// ========== MAIN CONTENT SCRIPTS ==========
+
+// import necessary resources
 import { FaBars } from "react-icons/fa";
 import { NavLink as Link } from "react-router-dom";
 import styled from "styled-components";
  
+// export components { Nav, NavLink, NavMenu, FaBars } for future use
 export const Nav = styled.nav`
     background: black;
     height: 85px;
