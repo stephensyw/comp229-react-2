@@ -62,7 +62,7 @@ const Home = () => {
                 {/* Provide a link to download the full Curriculum Vitae */}
                 <section class="profile-content">
                     <h2>My Curriculum Vitae</h2>
-                    <a href="#" class="button" onClick={onButtonClick}>Download Curriculum Vitae</a>
+                    <a href="/" class="button" onClick={onButtonClick}>Download Curriculum Vitae</a>
                 </section>
 
                 {/* Provide a link to access my GitHub account */}
